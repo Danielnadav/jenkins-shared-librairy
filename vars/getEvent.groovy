@@ -1,5 +1,6 @@
 def call(String name = 'blabla') {
   echo "Hello, ${name}."
-  sh "pwd" "echo the path of ${name}"
+  sh "pwd" 
+  sh "echo the path of ${name}"
 }
 
