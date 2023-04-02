@@ -1,3 +1,3 @@
-def call(String name = 'blabla') {
-  echo "Hello, ${name}."
+def call(String name = 'pwd') {
+  sh "Helthe path is, ${name}."
 }
