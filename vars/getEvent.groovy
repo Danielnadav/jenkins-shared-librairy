@@ -4,6 +4,6 @@ def call(String name = 'blabla') {
   sh "echo the path of ${name}"
   call(String name1 = 'plan')
   echo "${plan}"
-  System.exit(0)
+  return
 }
 
