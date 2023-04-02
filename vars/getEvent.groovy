@@ -1,3 +1,3 @@
 def call(Map config=[:]) {
-  return currentBuild.getBuildCauses()[0]["event"]
+  return currentBuild.getBuildCauses()
 }
