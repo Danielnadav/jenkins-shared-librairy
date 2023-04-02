@@ -1,3 +1,8 @@
 def call() {
-  sh "whoami" "pwd"
+  sh "whoami"
+}
+
+
+def call() {
+  sh "pwd"
 }
